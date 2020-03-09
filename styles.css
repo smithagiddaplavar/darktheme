@@ -1,0 +1,189 @@
+html,body{
+  padding: 0px;
+  width:100%;
+  margin: 0px;
+  overflow-x: hidden;
+  background-color: #191815 ; !important
+}
+.navbar{
+box-shadow: 1px 0 15px 1px black ;
+}
+.bg-custom{
+  background-color: #191815; !important
+}
+.navbar .navbar-nav .nav-link{
+  color: white;
+}
+.navbar-dark {
+color: white;!important
+}
+.container-fluid{
+  background-color: #191815;
+  width:100%;
+}
+.home{
+  color:white;
+  height: 90vh;
+}
+.home h2{
+  text-align: center;
+  color: #FFC300;
+}
+.home p{
+  text-align: center;
+}
+.padding{
+padding:60px 60px 0px 60px;
+background-color: #191815 ;
+}
+.homerow{
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.home button{
+  height:40px;
+  width: 130px;
+  border: 1px solid #FFC300;
+  background-color: transparent;
+  color: #FFC300;
+  margin: 20px;
+  font-size: 16px;
+}
+.homerow i{
+  color:  #FFC300;
+  font-size: 40px;
+}
+hr{
+  background-color: #FFC300;
+  height: 1px;
+  width: 1000px;
+  margin: auto; !important
+  border:0px;!important
+}
+@media only screen and (max-width:750px;){
+  hr{
+    width: 200px;
+    margin: auto;
+  }
+}
+
+
+.about h2{
+color:#FFC300;
+padding-top: 20px;
+text-align: center;
+
+}
+.text-hr{
+  background-color: #FFC300;
+  height: 1px;
+  width: 30px;
+}
+.about p{
+  color:white;
+  text-align: center;
+  padding-top:4 px;
+}
+.about{
+  text-align: center;
+}
+.about button{
+  height:40px;
+  width: 130px;
+  border: 1px solid #FFC300;
+  background-color: transparent;
+  color: #FFC300;
+  margin: 10px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.about h4{
+  color:#FFC300;
+  padding: 30px 0px 0px 0px;
+}
+ ul li{
+  color: white;
+  list-style: none;
+  padding:5px;
+  text-align: left;
+}
+.about .row{
+  width: 100%;
+  padding:20px;
+}
+.progress .progress-bar{
+  background-color:#FFC300;!important
+}
+.achivements h2, .blogs h2{
+  text-align: center;
+  color:#FFC300;
+}
+.achivements h4{
+  color:#FFC300;
+  text-align: center;
+  padding: 20px;
+}
+.achivements p{
+  color: white;
+  text-align: center;
+}
+.carousel ol{
+    margin: -20px;
+}
+.carousel ol li{
+  background-color: #FFC101;
+}
+.cardss{
+  text-align: center;
+}
+.blogs h4{
+  color:#FFC300;
+  text-align: center;
+  padding: 40px 20px 20px 20px;
+}
+.bcard button{
+  height:40px;
+  width: 130px;
+  border: 1px solid #FFC300;
+  background-color:#FFC300 ;
+  color: black;
+  border-radius: 1px;
+}
+.blogs p{
+  color: white;
+  text-align: center;
+}
+.bcard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.contact h2{
+  color:#FFC300;
+
+}
+.contact{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact a{
+  text-decoration:none;
+  color: white;
+  padding: 6  px;
+  font-size: 17px;
+}
+.contact i{
+font-size: 18px;
+}
+.contact a:hover{
+  color:white;
+  text-decoration: none;
+}
